@@ -285,13 +285,13 @@
               </figure>
             </div>
             <div
-              class="lg:relative px-10 lg:px-0 lg:pt-24 lg:-top-12 lg:-left-20"
+              class="lg:relative hidden lg:block px-10 lg:px-0 lg:pt-24 lg:-top-12 lg:-left-20"
             >
               <figure
-                class="p-4 bg-white rounded-2xl shadow-lg max-w-64 text-center"
+                class="p-4 bg-white lg:mt-12 rounded-2xl shadow-lg max-w-[260px] text-center"
               >
                 <img
-                  src="./assets/images/Bioinformatics_1.png"
+                  src="./assets/images/skills.jpeg"
                   alt="Functional Materials, Composites, Energy & ML"
                   class="w-full rounded-xl"
                 />
@@ -343,18 +343,20 @@
           </div>
 
           <!-- Contact Info -->
-          <ul class="grid grid-cols-1 gap-4 mt-6">
+          <ul class="grid grid-cols-1 gap-4 mt-4">
             <li class="flex items-center gap-4">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-12 h-12 rounded-lg flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="mail" class="text-lg"></ion-icon>
               </div>
-              <div class="flex-1">
-                <p class="text-gray-900 font-bold text-xs uppercase mb-1">Email</p>
+              <div class="flex-1 mt-4">
+                <p class="text-gray-900 font-bold text-xs uppercase mb-1">
+                  Email
+                </p>
                 <a
                   href="mailto:mostofaaadeebchowdhury.me.kuet@gmail.com"
-                  class="text-xs md:text-base text-gray-800 hover:text-white transition-colors text-sm"
+                  class="text-xs md:text-base text-blue-900 hover:text-white transition-colors text-sm"
                   >mostofaaadeebchowdhury.me.kuet@gmail.com</a
                 >
               </div>
@@ -371,6 +373,7 @@
               About me
             </h2>
           </header>
+
           <section
             class="text-gray-300 text-sm lg:text-base font-light leading-relaxed mb-8"
           >
@@ -380,7 +383,7 @@
               <span class="whitespace-nowrap"
                 ><a
                   href="https://www.kuet.ac.bd/"
-                  class="text-[13px] md:text-base text-orange-yellow hover:text-white transition-colors"
+                  class="text-[13px] md:text-base text-blue-900 font-semibold hover:text-orange-yellow transition-colors"
                   >Khulna University of Engineering and Technology (KUET)</a
                 ></span
               >
@@ -476,7 +479,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon
                   name="document-text-outline"
@@ -608,7 +611,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0"
               >
                 <ion-icon
                   name="color-filter-outline"
@@ -623,28 +626,41 @@
                 Research Experience
               </h3>
             </div>
-            <div class="space-y-8">
+
+            <div class="relative md:ml-4">
+              <!-- Vertical timeline line - hidden on mobile, visible on md+ -->
+              <div
+                class="hidden md:block absolute md:left-[20px] top-0 bottom-0 w-0.5 bg-blue-900"
+              ></div>
+
               <!-- Thesis -->
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-[40px_1fr] lg:grid-cols-[40px_1fr] gap-4 md:gap-6 mb-8 relative"
+              >
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 md:w-10 md:h-10 rounded-lg flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0 md:ml-0.5"
                 >
-                  <ion-icon name="book-outline" class="text-lg"></ion-icon>
+                  <ion-icon
+                    name="book-outline"
+                    class="text-lg md:text-xl"
+                  ></ion-icon>
                 </div>
-                <div class="lg:col-span-2">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+                <div>
+                  <h4
+                    class="text-base sm:text-lg font-semibold text-white mb-1"
+                  >
                     Undergraduate Thesis — Auxetic-Clamping Suppression of
                     Peel-Stress Failure in FDM-PETG Single-Lap Adhesive Joints
                   </h4>
-                  <span class="text-orange-yellow font-medium"
+                  <span class="text-blue-900 font-semibold text-sm sm:text-base"
                     >Sept 2025 – Aug 2026</span
                   >
-                  <p class="text-gray-400 italic mb-2">
+                  <p class="text-gray-400 italic text-sm sm:text-base mb-2">
                     Supervisor: Md. Golam Kader | Co-Supervisor: Dr. Md.
                     Ashraful Islam
                   </p>
                   <ul
-                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1"
+                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 text-sm sm:text-base"
                   >
                     <li>
                       3D-printed FDM-PETG auxetic-clamping inserts (negative
@@ -661,7 +677,7 @@
                       Identified key geometric parameters governing peel-stress
                       suppression via SHAP explainability; manuscript under
                       review at
-                      <em
+                      <em class="text-blue-900 font-semibold not-italic"
                         >Engineering Applications of Artificial Intelligence</em
                       >
                       (EAAI-26-21519).
@@ -671,24 +687,31 @@
               </div>
 
               <!-- LPBF -->
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-[40px_1fr] lg:grid-cols-[40px_1fr] gap-4 md:gap-6 mb-8 relative"
+              >
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 md:w-10 md:h-10 rounded-lg flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0 md:ml-0.5"
                 >
-                  <ion-icon name="book-outline" class="text-lg"></ion-icon>
+                  <ion-icon
+                    name="book-outline"
+                    class="text-lg md:text-xl"
+                  ></ion-icon>
                 </div>
-                <div class="lg:col-span-2">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+                <div>
+                  <h4
+                    class="text-base sm:text-lg font-semibold text-white mb-1"
+                  >
                     LPBF Residual Stress & Distortion Prediction (ML Framework)
                   </h4>
-                  <span class="text-orange-yellow font-medium"
+                  <span class="text-blue-900 font-semibold text-sm sm:text-base"
                     >July 2026 - Present</span
                   >
-                  <p class="text-gray-400 italic mb-2">
+                  <p class="text-gray-400 italic text-sm sm:text-base mb-2">
                     Supervisor: Dr. Md Mahbubur Rahman
                   </p>
                   <ul
-                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1"
+                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 text-sm sm:text-base"
                   >
                     <li>
                       Building a parametric ANSYS FEA study of Ti-6Al-4V LPBF
@@ -707,25 +730,32 @@
               </div>
 
               <!-- GFRP -->
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-[40px_1fr] lg:grid-cols-[40px_1fr] gap-4 md:gap-6 mb-8 relative"
+              >
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 md:w-10 md:h-10 rounded-lg flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0 md:ml-0.5"
                 >
-                  <ion-icon name="book-outline" class="text-lg"></ion-icon>
+                  <ion-icon
+                    name="book-outline"
+                    class="text-lg md:text-xl"
+                  ></ion-icon>
                 </div>
-                <div class="lg:col-span-2">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+                <div>
+                  <h4
+                    class="text-base sm:text-lg font-semibold text-white mb-1"
+                  >
                     Mechanical Performance of GFRP Epoxy Laminates with
                     Nanoparticle Fillers
                   </h4>
-                  <span class="text-orange-yellow font-medium"
+                  <span class="text-blue-900 font-semibold text-sm sm:text-base"
                     >October 2024 - Present</span
                   >
-                  <p class="text-gray-400 italic mb-2">
+                  <p class="text-gray-400 italic text-sm sm:text-base mb-2">
                     Supervisor: Dr. Md. Arifuzzaman
                   </p>
                   <ul
-                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1"
+                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 text-sm sm:text-base"
                   >
                     <li>
                       Fabricated GFRP laminates with nine fillers (Al₂O₃, CuO,
@@ -745,25 +775,32 @@
               </div>
 
               <!-- CFRP -->
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-[40px_1fr] lg:grid-cols-[40px_1fr] gap-4 md:gap-6 mb-8 relative"
+              >
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 md:w-10 md:h-10 rounded-lg flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0 md:ml-0.5"
                 >
-                  <ion-icon name="book-outline" class="text-lg"></ion-icon>
+                  <ion-icon
+                    name="book-outline"
+                    class="text-lg md:text-xl"
+                  ></ion-icon>
                 </div>
-                <div class="lg:col-span-2">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+                <div>
+                  <h4
+                    class="text-base sm:text-lg font-semibold text-white mb-1"
+                  >
                     Mechanical Properties Prediction of CFRP Composites with ML
                     and Explainable AI
                   </h4>
-                  <span class="text-orange-yellow font-medium"
+                  <span class="text-blue-900 font-semibold text-sm sm:text-base"
                     >September 2024 – December 2025</span
                   >
-                  <p class="text-gray-400 italic mb-2">
+                  <p class="text-gray-400 italic text-sm sm:text-base mb-2">
                     Supervisor: Dr. Md Ashraful Islam
                   </p>
                   <ul
-                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1"
+                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 text-sm sm:text-base"
                   >
                     <li>
                       Trained RF, XGBoost, Gradient Boost, LightGBM, KNN, SVR,
@@ -782,24 +819,31 @@
               </div>
 
               <!-- Nuclear Energy -->
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-[40px_1fr] lg:grid-cols-[40px_1fr] gap-4 md:gap-6 relative"
+              >
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 rounded-lg flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-8 h-8 md:w-10 md:h-10 rounded-lg flex justify-center items-center text-blue-900 shadow-lg flex-shrink-0 md:ml-0.5"
                 >
-                  <ion-icon name="book-outline" class="text-lg"></ion-icon>
+                  <ion-icon
+                    name="book-outline"
+                    class="text-lg md:text-xl"
+                  ></ion-icon>
                 </div>
-                <div class="lg:col-span-2">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+                <div>
+                  <h4
+                    class="text-base sm:text-lg font-semibold text-white mb-1"
+                  >
                     Nuclear Energy Research: Social Acceptance & Safety Analysis
                   </h4>
-                  <span class="text-orange-yellow font-medium"
+                  <span class="text-blue-900 font-semibold text-sm sm:text-base"
                     >July 2024 – January 2026</span
                   >
-                  <p class="text-gray-400 italic mb-2">
+                  <p class="text-gray-400 italic text-sm sm:text-base mb-2">
                     Supervisor: Dr. Md Abdullah Al Bari
                   </p>
                   <ul
-                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1"
+                    class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 text-sm sm:text-base"
                   >
                     <li>
                       Synthesized scholarship on risk perception, institutional
@@ -828,7 +872,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="people-outline" class="text-xl"></ion-icon>
               </div>
@@ -847,7 +891,7 @@
                 of Dr. Abdullah Al Bari (KFUPM) — KUET Mechanical Engineering
                 batches 2k21 & 2k22
               </p>
-              <span class="text-orange-yellow font-medium">2025 – Present</span>
+              <span class="text-blue-900 font-medium">2025 – Present</span>
               <ul
                 class="text-gray-300 leading-relaxed list-disc list-inside space-y-1 mt-2"
               >
@@ -878,7 +922,7 @@
             <div>
               <div class="flex items-center gap-4 mb-6">
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
                 >
                   <ion-icon name="book-outline" class="text-xl"></ion-icon>
                 </div>
@@ -898,9 +942,7 @@
                   <p class="text-gray-300">
                     Khulna University of Engineering and Technology (KUET)
                   </p>
-                  <span class="text-orange-yellow font-medium"
-                    >2022 – 2026</span
-                  >
+                  <span class="text-blue-900 font-medium">2022 – 2026</span>
                   <p class="text-gray-300 mt-2">
                     <b>CGPA: 3.64/4.00 (Up to 7th semester)</b>
                   </p>
@@ -927,9 +969,7 @@
                     Higher Secondary Certificate (HSC) — Science
                   </h4>
                   <p class="text-gray-300">Notre Dame College, Dhaka (NDC)</p>
-                  <span class="text-orange-yellow font-medium"
-                    >2019 – 2020</span
-                  >
+                  <span class="text-blue-900 font-medium">2019 – 2020</span>
                   <p class="text-gray-300 mt-2">
                     <b>GPA: 5.00/5.00</b>
                   </p>
@@ -949,7 +989,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="bag-outline" class="text-xl"></ion-icon>
               </div>
@@ -969,7 +1009,7 @@
                 <p class="text-gray-400 italic">
                   Maker Space Operations, Digital Fabrication
                 </p>
-                <span class="text-orange-yellow font-medium"
+                <span class="text-blue-900 text-blue-900 font-medium"
                   >March 2024 - Present</span
                 >
                 <p class="text-gray-300 mt-2 leading-relaxed">
@@ -986,7 +1026,7 @@
                 <p class="text-gray-400 italic">
                   Industrial / Manufacturing Operations
                 </p>
-                <span class="text-orange-yellow font-medium">2025</span>
+                <span class="text-blue-900 font-medium">2025</span>
                 <p class="text-gray-300 mt-2 leading-relaxed">
                   Completed a professional internship in
                   industrial/manufacturing operations; awarded a certificate of
@@ -1000,7 +1040,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="code-slash-outline" class="text-xl"></ion-icon>
               </div>
@@ -1051,7 +1091,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="trophy-outline" class="text-xl"></ion-icon>
               </div>
@@ -1102,7 +1142,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="medal-outline" class="text-xl"></ion-icon>
               </div>
@@ -1149,7 +1189,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="people-outline" class="text-xl"></ion-icon>
               </div>
@@ -1197,7 +1237,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="school-outline" class="text-xl"></ion-icon>
               </div>
@@ -1216,7 +1256,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="heart-outline" class="text-xl"></ion-icon>
               </div>
@@ -1236,7 +1276,7 @@
           <section class="mb-8">
             <div class="flex items-center gap-4 mb-6">
               <div
-                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-blue-900 shadow-lg"
               >
                 <ion-icon name="person-outline" class="text-xl"></ion-icon>
               </div>
@@ -1253,13 +1293,13 @@
                   Email: md.islam@me.kuet.ac.bd<br />
                   <a
                     href="#"
-                    class="text-orange-yellow hover:text-white transition-colors text-sm"
+                    class="text-blue-900 font-semibold hover:text-white transition-colors text-sm"
                     >Webpage</a
                   >
                   |
                   <a
                     href="#"
-                    class="text-orange-yellow hover:text-white transition-colors text-sm"
+                    class="text-blue-900 font-semibold hover:text-white transition-colors text-sm"
                     >Scholar</a
                   >
                 </p>
@@ -1272,13 +1312,13 @@
                   Email: mdabdullahal.bari@kfupm.edu.sa<br />
                   <a
                     href="#"
-                    class="text-orange-yellow hover:text-white transition-colors text-sm"
+                    class="text-blue-900 font-semibold hover:text-white transition-colors text-sm"
                     >Webpage</a
                   >
                   |
                   <a
                     href="#"
-                    class="text-orange-yellow hover:text-white transition-colors text-sm"
+                    class="text-blue-900 font-semibold hover:text-white transition-colors text-sm"
                     >Scholar</a
                   >
                 </p>
@@ -1441,42 +1481,72 @@
               Leadership & Service
             </h2>
           </header>
+
           <section class="space-y-8">
             <!-- Academic Leadership -->
             <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
-              <div class="flex items-center gap-4 mb-4">
+              <div class="flex items-center gap-4 mb-6">
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex items-center justify-center text-blue-900 shadow-lg"
                 >
                   <ion-icon name="school-outline" class="text-xl"></ion-icon>
                 </div>
+
                 <h3 class="text-xl font-semibold text-white">
                   Academic Leadership
                 </h3>
               </div>
-              <div class="space-y-4">
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+              <div class="relative ml-4">
+                <!-- Vertical Line -->
+                <div
+                  class="absolute left-[9px] top-0 bottom-0 w-0.5 bg-blue-900"
+                ></div>
+
+                <!-- Item -->
+                <div class="relative pl-10 pb-8">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     KUET Math Club — General Secretary
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2025 – 2026</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2025 – 2026</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Led and organized Multiverse of Mathness 2.0 and the
                     Intra-KUET Integration Bee & Puzzle Competition.
                   </p>
                 </div>
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+                <!-- Item -->
+                <div class="relative pl-10 pb-8">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     KUET Math Club — Treasurer
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2024 – 2025</p>
+
+                  <p class="text-blue-900 font-medium">2024 – 2025</p>
                 </div>
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+                <!-- Item -->
+                <div class="relative pl-10">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     IMechE Student Branch, KUET — Human Resource Officer
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2025 – 2026</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2025 – 2026</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Organized the SOFE (Society of Future Engineers)
                     article-writing competition.
                   </p>
@@ -1486,34 +1556,44 @@
 
             <!-- Research Coordination -->
             <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
-              <div class="flex items-center gap-4 mb-4">
+              <div class="flex items-center gap-4 mb-6">
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex items-center justify-center text-blue-900 shadow-lg"
                 >
                   <ion-icon name="flask-outline" class="text-xl"></ion-icon>
                 </div>
+
                 <h3 class="text-xl font-semibold text-white">
                   Research Coordination & Mentoring
                 </h3>
               </div>
-              <div class="space-y-4">
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+              <div class="relative ml-4">
+                <div
+                  class="absolute left-[9px] top-0 bottom-0 w-0.5 bg-blue-900"
+                ></div>
+
+                <div class="relative pl-10">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     Research Coordinator & Student Mentor (Remote)
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">
-                    2025 – Present
-                  </p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2025 – Present</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Serve as on-the-ground research coordinator for the student
                     team of Dr. Abdullah Al Bari (KFUPM) — Composites, Vitrimers
                     & Photocatalytic Materials group. Delivered training
-                    sessions on research fundamentals for <b>15 students</b>:
-                    framing research questions, reference management with
-                    Zotero, paper structure, and literature gap identification.
-                    Acting as primary point of contact between students and
-                    supervisor, scheduling progress-review meetings and relaying
-                    updates.
+                    sessions on research fundamentals for
+                    <strong>15 students</strong>: framing research questions,
+                    reference management with Zotero, paper structure, and
+                    literature gap identification. Acting as primary point of
+                    contact between students and supervisor, scheduling
+                    progress-review meetings and relaying updates.
                   </p>
                 </div>
               </div>
@@ -1521,34 +1601,53 @@
 
             <!-- National Academic Teams -->
             <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
-              <div class="flex items-center gap-4 mb-4">
+              <div class="flex items-center gap-4 mb-6">
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex items-center justify-center text-blue-900 shadow-lg"
                 >
                   <ion-icon name="trophy-outline" class="text-xl"></ion-icon>
                 </div>
+
                 <h3 class="text-xl font-semibold text-white">
                   National Academic Teams
                 </h3>
               </div>
-              <div class="space-y-4">
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+              <div class="relative ml-4">
+                <div
+                  class="absolute left-[9px] top-0 bottom-0 w-0.5 bg-blue-900"
+                ></div>
+
+                <div class="relative pl-10 pb-8">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     Bangladesh Physics Olympiad — Academic Team Member
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2022 – 2024</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2022 – 2024</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Led the academic team in BdPhO Khulna Region (2023);
                     volunteered for question setting, moderation, and script
                     checking.
                   </p>
                 </div>
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+                <div class="relative pl-10">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     Bangladesh Mathematical Olympiad — Academic Team Member
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2022 – 2025</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2022 – 2025</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Volunteered for question setting, moderation, and script
                     checking.
                   </p>
@@ -1558,42 +1657,60 @@
 
             <!-- Community Service -->
             <div class="bg-gray-800/30 p-6 rounded-xl border border-gray-700">
-              <div class="flex items-center gap-4 mb-4">
+              <div class="flex items-center gap-4 mb-6">
                 <div
-                  class="relative bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex justify-center items-center text-orange-yellow shadow-lg"
+                  class="bg-gradient-to-br from-gray-700 to-gray-800 w-10 h-10 rounded-xl flex items-center justify-center text-blue-900 shadow-lg"
                 >
                   <ion-icon name="heart-outline" class="text-xl"></ion-icon>
                 </div>
+
                 <h3 class="text-xl font-semibold text-white">
                   Community Service
                 </h3>
               </div>
-              <div class="space-y-4">
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+              <div class="relative ml-4">
+                <div
+                  class="absolute left-[9px] top-0 bottom-0 w-0.5 bg-blue-900"
+                ></div>
+
+                <div class="relative pl-10 pb-8">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     Team Five Wheel — Project Lead
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2022</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
+
+                  <p class="text-blue-900 font-medium mb-2">2022</p>
+
+                  <p class="text-gray-300 leading-relaxed">
                     Led a 5-member team to build a Line Following Robot
                     (competition champion).
                   </p>
                 </div>
-                <div class="border-l-4 border-orange-yellow pl-4">
-                  <h4 class="text-lg font-semibold text-white mb-2">
+
+                <div class="relative pl-10">
+                  <div
+                    class="absolute left-0 top-1 w-5 h-5 rounded-full border-4 border-blue-900 bg-gray-900"
+                  ></div>
+
+                  <h4 class="text-lg font-semibold text-white">
                     Sigma Math Club, Jashore — Co-Founder
                   </h4>
-                  <p class="text-orange-yellow font-medium mb-2">2016 – 2018</p>
-                  <p class="text-gray-300 text-sm leading-relaxed">
-                    Trained junior & elementary students for math Olympiads; 17
-                    students won competitions.
+
+                  <p class="text-blue-900 font-medium mb-2">2016 – 2018</p>
+
+                  <p class="text-gray-300 leading-relaxed">
+                    Trained junior and elementary students for Math Olympiads;
+                    17 students won competitions.
                   </p>
                 </div>
               </div>
             </div>
           </section>
         </article>
-
         <!-- Contact Section -->
         <article
           class="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border border-gray-700 rounded-2xl p-6 lg:p-8 shadow-2xl backdrop-blur-sm mt-24"
